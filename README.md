@@ -1,4 +1,4 @@
-rojeto - Controle de Estoque
+Projeto - Controle de Estoque
 Autenticação de Usuário
 📌 Tela de Login
 
