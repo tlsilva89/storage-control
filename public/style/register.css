@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -45,14 +46,17 @@ body {
   border-radius: 8px;
   font-size: 14px;
   color: #333;
-  transition: border-color 0.3s ease;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
 }
 
 .form-container input[type="text"]:focus,
 .form-container input[type="email"]:focus,
 .form-container input[type="password"]:focus {
-  border-color: #007aff;
+  border-color: #1DF2A4;
   outline: none;
+  box-shadow: 0 2px 8px rgba(0, 122, 255, 0.2);
 }
 
 .form-container input[type="submit"] {
@@ -62,8 +66,10 @@ body {
   border-radius: 8px;
   color: #fff;
   font-size: 16px;
+  font-weight: bold;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  box-sizing: border-box;
 }
 
 .form-container input[type="submit"]:hover {
