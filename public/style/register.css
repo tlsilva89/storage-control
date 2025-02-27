@@ -71,7 +71,3 @@ body {
   transition: background-color 0.3s ease;
   box-sizing: border-box;
 }
-
-.form-container input[type="submit"]:hover {
-  background-color: #005bb5;
-}
